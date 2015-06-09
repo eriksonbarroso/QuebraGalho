@@ -1,0 +1,406 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'lwip' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.1
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 silly cache add args [ 'lwip', null ]
+6 verbose cache add spec lwip
+7 silly cache add parsed spec { raw: 'lwip',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'lwip',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed lwip@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'lwip', range: '*', hasData: false }
+12 silly mapToRegistry name lwip
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://registry.npmjs.org/
+15 silly mapToRegistry uri http://registry.npmjs.org/lwip
+16 verbose addNameRange registry:http://registry.npmjs.org/lwip not in flight; fetching
+17 verbose request uri http://registry.npmjs.org/lwip
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 9:14:05 PM
+20 verbose request id f5383b4f066684b1
+21 http request GET http://registry.npmjs.org/lwip
+22 http 403 http://registry.npmjs.org/lwip
+23 verbose bad json <!--# Id: closedproxy.html 50700 2012-10-03 08:24:37Z archi -->
+23 verbose bad json <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+23 verbose bad json <html>
+23 verbose bad json <head>
+23 verbose bad json <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+23 verbose bad json <title>Blocked by Closed Proxy Control</title>
+23 verbose bad json <script language="JavaScript">var defLang='en_US'</script>
+23 verbose bad json <style type="text/css">
+23 verbose bad json body {
+23 verbose bad json background-color: white;
+23 verbose bad json font-family:Verdana, Arial, Helvetica, sans-serif;
+23 verbose bad json font-size:12px;
+23 verbose bad json text-align:center;
+23 verbose bad json }
+23 verbose bad json .enduser_border {
+23 verbose bad json border:1px solid #0067B3;
+23 verbose bad json }
+23 verbose bad json .enduser_head {
+23 verbose bad json font-family:Verdana, Arial, Helvetica, sans-serif;
+23 verbose bad json font-size:15px;
+23 verbose bad json background-color:#e8e8e8;
+23 verbose bad json color:#0067B3; height:60px;
+23 verbose bad json padding:5px;
+23 verbose bad json font-weight:bold;
+23 verbose bad json vertical-align:middle;
+23 verbose bad json text-align:center;
+23 verbose bad json }
+23 verbose bad json .enduser_txt {
+23 verbose bad json background-color:#e8e8e8;
+23 verbose bad json color:#000000;
+23 verbose bad json padding:3px;
+23 verbose bad json font-family:Verdana, Arial, Helvetica, sans-serif;
+23 verbose bad json font-size:12px;
+23 verbose bad json text-align:center;
+23 verbose bad json }
+23 verbose bad json .enduser_txt1 {
+23 verbose bad json background-color:#e8e8e8;
+23 verbose bad json color:#0067B3;
+23 verbose bad json padding:3px;
+23 verbose bad json font-family:Verdana, Arial, Helvetica, sans-serif;
+23 verbose bad json font-size:14px;
+23 verbose bad json text-align:center;
+23 verbose bad json }
+23 verbose bad json .enduser_contact {
+23 verbose bad json font-family:Verdana, Arial, Helvetica, sans-serif;
+23 verbose bad json font-size:12px;
+23 verbose bad json background-color:#e8e8e8;
+23 verbose bad json text-align:center; color:#000000;
+23 verbose bad json padding:3px; height:20px;
+23 verbose bad json }
+23 verbose bad json .enduser_link {
+23 verbose bad json background-color:#e8e8e8;
+23 verbose bad json color:#000000;
+23 verbose bad json padding:3px;
+23 verbose bad json height:60px;
+23 verbose bad json vertical-align:middle;
+23 verbose bad json text-align:center;
+23 verbose bad json }
+23 verbose bad json .enduser_link1 {
+23 verbose bad json background-color: #e8e8e8;
+23 verbose bad json font-size:13px;
+23 verbose bad json text-align:center;
+23 verbose bad json color:#0067B3;
+23 verbose bad json padding:3px;
+23 verbose bad json font-weight:bold;
+23 verbose bad json vertical-align:middle;
+23 verbose bad json }
+23 verbose bad json .boxhead {
+23 verbose bad json background-color:#0067B3;
+23 verbose bad json line-height:150%;
+23 verbose bad json color:#ffffff;
+23 verbose bad json height:25px;
+23 verbose bad json padding:2px 4px 2px 4px;
+23 verbose bad json font-size:16px;
+23 verbose bad json font-weight:bold;
+23 verbose bad json vertical-align:middle;
+23 verbose bad json text-align:center;
+23 verbose bad json border:1px solid #0067B3;
+23 verbose bad json }
+23 verbose bad json .imgprop {
+23 verbose bad json vertical-align:middle;
+23 verbose bad json background-color:#e8e8e8;
+23 verbose bad json text-align:center;
+23 verbose bad json padding:10px 5px;
+23 verbose bad json }
+23 verbose bad json </style>
+23 verbose bad json
+23 verbose bad json </head>
+23 verbose bad json <body>
+23 verbose bad json <table width="50%" border="0" align="center" cellpadding="0" cellspacing="0">
+23 verbose bad json <tr>
+23 verbose bad json <td height="100" valign="top" class="enduser_border" >
+23 verbose bad json <!--locale en_US-->
+23 verbose bad json <table id='en_US' width="100%" border="0" cellspacing="0" cellpadding="0">
+23 verbose bad json <tr>
+23 verbose bad json <td class="boxhead"></td>
+23 verbose bad json </tr>
+23 verbose bad json <tr>
+23 verbose bad json <td class="enduser_head">Closed Proxy Control Notification</td>
+23 verbose bad json </tr>
+23 verbose bad json
+23 verbose bad json <tr>
+23 verbose bad json <td class="enduser_txt">Connection refused. Please connect to internet using your browser first.</td>
+23 verbose bad json </tr>
+23 verbose bad json <tr>
+23 verbose bad json <td class="enduser_contact">&nbsp;</td>
+23 verbose bad json </tr>
+23 verbose bad json </table>
+23 verbose bad json <!--/locale en_US-->
+23 verbose bad json </td>
+23 verbose bad json </tr>
+23 verbose bad json </table>
+23 verbose bad json </body>
+23 verbose bad json </html>
+23 verbose bad json <!-- 0 0 53 0 1432412029 4 http://registry.npmjs.org/lwip -->
+24 error registry error parsing json
+25 verbose headers { 'content-type': 'text/html',
+25 verbose headers   server: 'Zscaler/5.0',
+25 verbose headers   'cache-control': 'no-cache',
+25 verbose headers   'content-length': '2520' }
+26 silly get cb [ 403,
+26 silly get   { 'content-type': 'text/html',
+26 silly get     server: 'Zscaler/5.0',
+26 silly get     'cache-control': 'no-cache',
+26 silly get     'content-length': '2520' } ]
+27 verbose stack SyntaxError: Unexpected token <
+27 verbose stack <!--# Id: closedproxy.html 50700 2012-10-03 08:24:37Z archi -->
+27 verbose stack <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+27 verbose stack <html>
+27 verbose stack <head>
+27 verbose stack <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+27 verbose stack <title>Blocked by Closed Proxy Control</title>
+27 verbose stack <script language="JavaScript">var defLang='en_US'</script>
+27 verbose stack <style type="text/css">
+27 verbose stack body {
+27 verbose stack background-color: white;
+27 verbose stack font-family:Verdana, Arial, Helvetica, sans-serif;
+27 verbose stack font-size:12px;
+27 verbose stack text-align:center;
+27 verbose stack }
+27 verbose stack .enduser_border {
+27 verbose stack border:1px solid #0067B3;
+27 verbose stack }
+27 verbose stack .enduser_head {
+27 verbose stack font-family:Verdana, Arial, Helvetica, sans-serif;
+27 verbose stack font-size:15px;
+27 verbose stack background-color:#e8e8e8;
+27 verbose stack color:#0067B3; height:60px;
+27 verbose stack padding:5px;
+27 verbose stack font-weight:bold;
+27 verbose stack vertical-align:middle;
+27 verbose stack text-align:center;
+27 verbose stack }
+27 verbose stack .enduser_txt {
+27 verbose stack background-color:#e8e8e8;
+27 verbose stack color:#000000;
+27 verbose stack padding:3px;
+27 verbose stack font-family:Verdana, Arial, Helvetica, sans-serif;
+27 verbose stack font-size:12px;
+27 verbose stack text-align:center;
+27 verbose stack }
+27 verbose stack .enduser_txt1 {
+27 verbose stack background-color:#e8e8e8;
+27 verbose stack color:#0067B3;
+27 verbose stack padding:3px;
+27 verbose stack font-family:Verdana, Arial, Helvetica, sans-serif;
+27 verbose stack font-size:14px;
+27 verbose stack text-align:center;
+27 verbose stack }
+27 verbose stack .enduser_contact {
+27 verbose stack font-family:Verdana, Arial, Helvetica, sans-serif;
+27 verbose stack font-size:12px;
+27 verbose stack background-color:#e8e8e8;
+27 verbose stack text-align:center; color:#000000;
+27 verbose stack padding:3px; height:20px;
+27 verbose stack }
+27 verbose stack .enduser_link {
+27 verbose stack background-color:#e8e8e8;
+27 verbose stack color:#000000;
+27 verbose stack padding:3px;
+27 verbose stack height:60px;
+27 verbose stack vertical-align:middle;
+27 verbose stack text-align:center;
+27 verbose stack }
+27 verbose stack .enduser_link1 {
+27 verbose stack background-color: #e8e8e8;
+27 verbose stack font-size:13px;
+27 verbose stack text-align:center;
+27 verbose stack color:#0067B3;
+27 verbose stack padding:3px;
+27 verbose stack font-weight:bold;
+27 verbose stack vertical-align:middle;
+27 verbose stack }
+27 verbose stack .boxhead {
+27 verbose stack background-color:#0067B3;
+27 verbose stack line-height:150%;
+27 verbose stack color:#ffffff;
+27 verbose stack height:25px;
+27 verbose stack padding:2px 4px 2px 4px;
+27 verbose stack font-size:16px;
+27 verbose stack font-weight:bold;
+27 verbose stack vertical-align:middle;
+27 verbose stack text-align:center;
+27 verbose stack border:1px solid #0067B3;
+27 verbose stack }
+27 verbose stack .imgprop {
+27 verbose stack vertical-align:middle;
+27 verbose stack background-color:#e8e8e8;
+27 verbose stack text-align:center;
+27 verbose stack padding:10px 5px;
+27 verbose stack }
+27 verbose stack </style>
+27 verbose stack
+27 verbose stack </head>
+27 verbose stack <body>
+27 verbose stack <table width="50%" border="0" align="center" cellpadding="0" cellspacing="0">
+27 verbose stack <tr>
+27 verbose stack <td height="100" valign="top" class="enduser_border" >
+27 verbose stack <!--locale en_US-->
+27 verbose stack <table id='en_US' width="100%" border="0" cellspacing="0" cellpadding="0">
+27 verbose stack <tr>
+27 verbose stack <td class="boxhead"></td>
+27 verbose stack </tr>
+27 verbose stack <tr>
+27 verbose stack <td class="enduser_head">Closed Proxy Control Notification</td>
+27 verbose stack </tr>
+27 verbose stack
+27 verbose stack <tr>
+27 verbose stack <td class="enduser_txt">Connection refused. Please connect to internet using your browser first.</td>
+27 verbose stack </tr>
+27 verbose stack <tr>
+27 verbose stack <td class="enduser_contact">&nbsp;</td>
+27 verbose stack </tr>
+27 verbose stack </table>
+27 verbose stack <!--/locale en_US-->
+27 verbose stack </td>
+27 verbose stack </tr>
+27 verbose stack </table>
+27 verbose stack </body>
+27 verbose stack </html>
+27 verbose stack <!-- 0 0 53 0 1432412029 4 http://registry.npmjs.org/lwip -->
+27 verbose stack     at Object.parse (native)
+27 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:205:23)
+27 verbose stack     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:178:14)
+27 verbose stack     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:344:22)
+27 verbose stack     at Request.emit (events.js:110:17)
+27 verbose stack     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1239:14)
+27 verbose stack     at Request.emit (events.js:129:20)
+27 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1187:12)
+27 verbose stack     at IncomingMessage.emit (events.js:129:20)
+27 verbose stack     at _stream_readable.js:908:16
+28 verbose cwd D:\Escola\DAAM\myapp\QuebraGalho
+29 error Windows_NT 6.3.9600
+30 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "lwip"
+31 error node v0.12.1
+32 error npm  v2.5.1
+33 error Unexpected token <
+33 error <!--# Id: closedproxy.html 50700 2012-10-03 08:24:37Z archi -->
+33 error <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+33 error <html>
+33 error <head>
+33 error <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+33 error <title>Blocked by Closed Proxy Control</title>
+33 error <script language="JavaScript">var defLang='en_US'</script>
+33 error <style type="text/css">
+33 error body {
+33 error background-color: white;
+33 error font-family:Verdana, Arial, Helvetica, sans-serif;
+33 error font-size:12px;
+33 error text-align:center;
+33 error }
+33 error .enduser_border {
+33 error border:1px solid #0067B3;
+33 error }
+33 error .enduser_head {
+33 error font-family:Verdana, Arial, Helvetica, sans-serif;
+33 error font-size:15px;
+33 error background-color:#e8e8e8;
+33 error color:#0067B3; height:60px;
+33 error padding:5px;
+33 error font-weight:bold;
+33 error vertical-align:middle;
+33 error text-align:center;
+33 error }
+33 error .enduser_txt {
+33 error background-color:#e8e8e8;
+33 error color:#000000;
+33 error padding:3px;
+33 error font-family:Verdana, Arial, Helvetica, sans-serif;
+33 error font-size:12px;
+33 error text-align:center;
+33 error }
+33 error .enduser_txt1 {
+33 error background-color:#e8e8e8;
+33 error color:#0067B3;
+33 error padding:3px;
+33 error font-family:Verdana, Arial, Helvetica, sans-serif;
+33 error font-size:14px;
+33 error text-align:center;
+33 error }
+33 error .enduser_contact {
+33 error font-family:Verdana, Arial, Helvetica, sans-serif;
+33 error font-size:12px;
+33 error background-color:#e8e8e8;
+33 error text-align:center; color:#000000;
+33 error padding:3px; height:20px;
+33 error }
+33 error .enduser_link {
+33 error background-color:#e8e8e8;
+33 error color:#000000;
+33 error padding:3px;
+33 error height:60px;
+33 error vertical-align:middle;
+33 error text-align:center;
+33 error }
+33 error .enduser_link1 {
+33 error background-color: #e8e8e8;
+33 error font-size:13px;
+33 error text-align:center;
+33 error color:#0067B3;
+33 error padding:3px;
+33 error font-weight:bold;
+33 error vertical-align:middle;
+33 error }
+33 error .boxhead {
+33 error background-color:#0067B3;
+33 error line-height:150%;
+33 error color:#ffffff;
+33 error height:25px;
+33 error padding:2px 4px 2px 4px;
+33 error font-size:16px;
+33 error font-weight:bold;
+33 error vertical-align:middle;
+33 error text-align:center;
+33 error border:1px solid #0067B3;
+33 error }
+33 error .imgprop {
+33 error vertical-align:middle;
+33 error background-color:#e8e8e8;
+33 error text-align:center;
+33 error padding:10px 5px;
+33 error }
+33 error </style>
+33 error
+33 error </head>
+33 error <body>
+33 error <table width="50%" border="0" align="center" cellpadding="0" cellspacing="0">
+33 error <tr>
+33 error <td height="100" valign="top" class="enduser_border" >
+33 error <!--locale en_US-->
+33 error <table id='en_US' width="100%" border="0" cellspacing="0" cellpadding="0">
+33 error <tr>
+33 error <td class="boxhead"></td>
+33 error </tr>
+33 error <tr>
+33 error <td class="enduser_head">Closed Proxy Control Notification</td>
+33 error </tr>
+33 error
+33 error <tr>
+33 error <td class="enduser_txt">Connection refused. Please connect to internet using your browser first.</td>
+33 error </tr>
+33 error <tr>
+33 error <td class="enduser_contact">&nbsp;</td>
+33 error </tr>
+33 error </table>
+33 error <!--/locale en_US-->
+33 error </td>
+33 error </tr>
+33 error </table>
+33 error </body>
+33 error </html>
+33 error <!-- 0 0 53 0 1432412029 4 http://registry.npmjs.org/lwip -->
+34 error If you need help, you may report this error at:
+34 error     <http://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]
